@@ -5,6 +5,7 @@ public class Program
 {
     public static void Main(string[] args)
     {
+
         // Пишите код внутри Main
         // Console.WriteLine("привет,мое имя Роберт мне 14 лет ");
         // Console.WriteLine("занимаюсь спортом ");
@@ -76,19 +77,31 @@ public class Program
         //int it = 350;
         //int at = 120;
         //  int discount = 50;
-        // Console.WriteLine(it + at - discount);
-         int number = 42;
-        int a = 50;
-        int b = 4;
-        int c = 4;
-        
-        Console.WriteLine(number+a+b+c);
+        // C//onsole.WriteLine(it + at - discount);
+        //  int number = 42;
+        ///int a = 50;
+        // int b = 4;
+        // int c = 4;
+
+        // Console.WriteLine(number+a+b+c);
 
         //int a = 10;
-      //  int b = 5;
-      //  int c = 2;
+        //  int b = 5;
+        //  int c = 2;
         //Console.WriteLine(a * b * c / c);
-       // Console.WriteLine(a * b * c);
+        // Console.WriteLine(a * b * c);
+
+        Console.WriteLine("Введи первое число ");
+        string input = Console.ReadLine();
+      int number=Convert.ToInt32(input);
+        Console.WriteLine("Введи второе число ");
+        string red= Console.ReadLine();
+        int first = Convert.ToInt32(input);
+
+
+
+
+
 
     }
 }
