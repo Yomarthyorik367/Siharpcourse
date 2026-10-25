@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Net.Http;
+using System.Runtime.InteropServices;
 
 public class Program
 {
@@ -81,7 +82,7 @@ public class Program
         //  int number = 42;
         ///int a = 50;
         // int b = 4;
-        // int c = 4;
+        // int c = a+b -a * 2 / b;
 
         // Console.WriteLine(number+a+b+c);
 
@@ -91,17 +92,44 @@ public class Program
         //Console.WriteLine(a * b * c / c);
         // Console.WriteLine(a * b * c);
 
-        Console.WriteLine("Введи первое число ");
-        string input = Console.ReadLine();
-      int number=Convert.ToInt32(input);
-        Console.WriteLine("Введи второе число ");
-        string red= Console.ReadLine();
-        int first = Convert.ToInt32(input);
 
+        /// задание №1
 
+        // Console.WriteLine("Введи первое число ");
+        //  string input = Console.ReadLine();
+        //int number=Convert.ToInt32(input);
+        // Console.WriteLine("Введи второе число ");
+        // string red= Console.ReadLine();
+        //int first = Convert.ToInt32(input);
 
+        //Задание №2
+        /*
+        Console.WriteLine("Введите длину комнаты");
+        string length = Console.ReadLine();
 
+         Console.WriteLine("Введите ширину комнаты");
+         string width = Console.ReadLine();
 
+         double Dlenght=Convert.ToDouble(length);
+         double Dwidht= Convert.ToDouble(width);
+
+         double sqare = Dlenght*Dwidht;
+         double perimetr = 2*(Dlenght + Dwidht);
+         Console.WriteLine("Площадь:"+sqare+" Периметр:"+perimetr);
+         */
+
+        //Задание №3
+        Console.WriteLine("Выполнено домашнее задание ");
+        string homework = Console.ReadLine();
+        bool homewor = Convert.ToBoolean(homework);
+        
+        Console.WriteLine("Сколько минут протребовалось ");
+        string timeUP = Console.ReadLine();
+        int tme = Convert.ToInt32(timeUP);
+       
+        int hour = 60;
+        double secod=(double)tme/hour;
+        Console.WriteLine(secod);
 
     }
 }
